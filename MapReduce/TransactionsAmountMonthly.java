@@ -39,7 +39,7 @@
 	   }
 	
 	   public static void main(String[] args) throws Exception {
-	     JobConf conf = new JobConf(TransactionsAmountYearly.class);
+	     JobConf conf = new JobConf(TransactionsAmountMonthly.class);
 	     conf.setJobName("TransactionAmountMonthly");
 	
 	     conf.setOutputKeyClass(Text.class);
